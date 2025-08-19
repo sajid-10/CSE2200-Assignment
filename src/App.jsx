@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Profile from './pages/profile.jsx';
 import Articales from './pages/articales.jsx';
 import Sidebar from './components/Sidebar.jsx';
+import { div } from 'framer-motion/client';
 
 function App() {
   return(
