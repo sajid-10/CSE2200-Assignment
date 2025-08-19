@@ -5,6 +5,10 @@
     background-color: #181852ff;
 }
 
+body {
+  background-color: #034ab5; /* Light gray */
+}
+
 .container {
     display: flex;
     min-height: 100vh;
