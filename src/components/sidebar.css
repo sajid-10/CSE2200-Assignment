@@ -1,0 +1,59 @@
+ .sidebar{
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(17, 17, 44);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+ }
+
+ .sidebar.closed {
+    width: 80px;
+ }
+
+ .header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(23, 23, 75);
+    justify-content: space-between;
+    padding: 10px;
+ }
+
+ .toggleButton{
+    cursor: pointer;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+ }
+
+ .toggleButton .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+ }
+
+ .toggleButton .left{
+    border-width: 8px 10px 8px 0px;
+    border-color: transparent white transparent transparent;
+ }
+
+ .toggleButton .right{
+    border-width: 8px 0px 8px 10px;
+    border-color: transparent transparent transparent white
+ }
+
+ .logo {
+    text-align: center;
+ }
+
+ .logo h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(187, 14, 14);
+    margin: 0;
+ }
+
